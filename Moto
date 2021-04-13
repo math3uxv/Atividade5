@@ -1,0 +1,18 @@
+package Atividade5;
+
+public class Moto extends Veiculos{
+    int ano;
+
+    public Moto(String modelo, double preco, String data, int ano) {
+        super(modelo, preco, data);
+        this.ano = ano;
+    }
+    
+    @Override
+    public String Mostrar(){
+        String msg= "Dados: \nModelo: "+modelo+"\nPreço: "+preco+"\nData: "+data+"\nAno: "+ano;
+        return msg;
+    }
+
+    
+}
