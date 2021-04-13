@@ -1,0 +1,17 @@
+package Atividade5;
+
+public class Principal {
+
+    public static void main(String[] args) {
+        
+        Carro c1=new Carro ("Voyagem", 650000, "13/04/2021", 500);
+        System.out.println(c1.Mostrar());
+        
+        System.out.println("----------------");
+        
+        Moto m1=new Moto("Biz", 10000,"13/04/2021", 2013);
+        System.out.println(m1.Mostrar());
+        
+    }
+    
+}
