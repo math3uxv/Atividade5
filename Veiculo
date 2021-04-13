@@ -1,0 +1,20 @@
+package Atividade5;
+
+public class Veiculos {
+    String modelo;
+    double preco;
+    String data;
+
+    public Veiculos(String modelo, double preco, String data) {
+        this.modelo = modelo;
+        this.preco = preco;
+        this.data = data;
+    }
+    
+    public String Mostrar(){
+        String msg= "Dados: \nModelo: "+modelo+"\nPreço: "+preco+"\nData: "+data;
+        return msg;
+    }
+    
+            
+}
