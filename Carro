@@ -1,0 +1,20 @@
+package Atividade5;
+
+public class Carro extends Veiculos {
+    double km;
+
+    public Carro(String modelo, double preco, String data, double km) {
+        super(modelo, preco, data);
+        this.km = km;
+    }
+
+    @Override
+    public String Mostrar(){
+        String msg= "Dados: \nModelo: "+modelo+"\nPreço: "+preco+"\nData: "+data+"\nQuilometros rodados: "+km+"km";
+        return msg;
+    }
+
+    
+    
+   
+}
